@@ -1,0 +1,7 @@
+rcp 2.6 to 8.5 - Related to CO2 emmission.
+ssp 2 to 3 - Related to Society.
+BSSP585 means:
+    ssp 5
+    rcp 8.5
+    
+CESM uses spherical coordinates in the southern hemisphere etc. (source: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019MS001916)
