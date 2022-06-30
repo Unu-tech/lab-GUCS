@@ -1,7 +1,33 @@
 rcp 2.6 to 8.5 - Related to CO2 emmission.
-ssp 2 to 3 - Related to Society.
+ssp 2 to 5 - Related to Society.
 BSSP585 means:
     ssp 5
     rcp 8.5
     
 CESM uses spherical coordinates in the southern hemisphere etc. (source: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019MS001916)
+
+ncview install (conda has it) -> animate
+
+1. Time series - Simulation details
+2. Different scenarios - Differences
+3. Why is it happening
+4. Big data -> ML -> SOMs
+5. Easy SOM examples
+6. Show initial results
+
+Globals - /gucnas1/sims/CESM/***/atm (lnd) /hist/*.h0*
+lnd - land
+atm - atmosphere
+h0 - basic output (historical)
+
+ncdump -h *** | less
+
+/work/alvin/CESM/analyze_scenario_mips.ipynb (analyze.py)
+
+1. Collect, clean, and visualize HEAT_FROM_AC from land model
+2. Check out how many samples are winning for each node. (Check out basic usage of minisom)
+3. Plot each node back, verify, and adjust node number.
+4. Plot averages of winning nodes.
+5. Read https://www.researchgate.net/figure/SOM-patterns-used-in-this-study-The-sea-level-pressure-patterns-here-capture-the-full_fig1_258612993
+6. Read https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008GL036465
+7. Read Global Physical Climatology
