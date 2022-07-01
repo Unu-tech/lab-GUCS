@@ -31,3 +31,6 @@ ncdump -h *** | less
 5. Read https://www.researchgate.net/figure/SOM-patterns-used-in-this-study-The-sea-level-pressure-patterns-here-capture-the-full_fig1_258612993
 6. Read https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008GL036465
 7. Read Global Physical Climatology
+
+May becomes highly variant ~2040
+North pole becomes warmer around ~2030
